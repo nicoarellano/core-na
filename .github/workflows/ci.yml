@@ -1,0 +1,47 @@
+name: CI
+on:
+  push:
+    branches: [ main, beta ]
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_TELEMETRY_DISABLED: 1
+      NODE_ENV: test
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'yarn'
+          cache-dependency-path: 'yarn.lock'
+
+      - name: Install deps
+        run: yarn install --frozen-lockfile
+
+      # - name: Typecheck # Catches type errors
+      #   run: yarn check-types
+
+      # - name: Lint #Runs ESLint
+      #   run: yarn lint
+
+      - name: Build
+        run: yarn build
+
+      - name: Log into Github Container registry
+        run: echo "${{ secrets.GH_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+      - name: Build Docker image
+        run: |
+          IMAGE_NAME=ghcr.io/canada-digital-twin/cdt-image:latest
+          echo "IMAGE_NAME=$IMAGE_NAME" >> $GITHUB_ENV
+          docker build -t $IMAGE_NAME .
+
+      - name: Push Docker image
+        run: |
+          docker push $IMAGE_NAME
