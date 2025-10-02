@@ -1,6 +1,5 @@
 name: "New feature proposal 🧰"
 description: Propose a new feature or cool thing
-type: Feature
 body:
   - type: markdown
     attributes:
