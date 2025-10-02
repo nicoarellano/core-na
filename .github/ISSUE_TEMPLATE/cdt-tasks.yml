@@ -1,0 +1,48 @@
+name: "New task 📋"
+description: Create a new task with clear goals, steps, and timeline
+type: Task
+body:
+  - type: textarea
+    id: goal-outcome
+    attributes:
+      label: Goal / Outcome 🎯
+      description: "Clear and concise description of what the end result should be. Define the expected deliverable and success criteria."
+      placeholder: "Example: As a [role] I need [deliverable] so that [benefit/outcome]. Success will be measured by [criteria]."
+    validations:
+      required: true
+  - type: textarea
+    id: task-steps
+    attributes:
+      label: Steps to Complete 📝
+      description: "Break down the task into actionable steps. Number them if there's a specific order, or use bullet points for parallel work."
+      placeholder: |
+        1. Research and gather requirements
+        2. Create initial draft/prototype
+        3. Review and iterate
+        4. Final implementation
+        5. Testing and validation
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context and dependencies📎
+      description: "Any other relevant information, screenshots, links, or context that would help with task completion."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Task Creation Checklist ✅
+      description: "Before submitting, please confirm:"
+      options:
+        - label: The goal and outcome are clearly defined and measurable
+          required: false
+        - label: Steps are actionable and appropriately detailed
+          required: false
+        - label: Due date is realistic given the scope and dependencies
+          required: false
+        - label: Checked for similar existing tasks to avoid duplication
+          required: false
+        - label: All the requirements completed
+          required: true 
