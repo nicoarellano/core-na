@@ -13,7 +13,7 @@
 
 <!-- CHANGE TO CDT -->
 <!-- [![CDT](https://img.shields.io/badge/embark-open%20source-blueviolet.svg)](collabdt.org/dev) -->
- [![CDT](https://img.shields.io/badge/discord-ark-%237289da.svg?logo=discord)](https://discord.gg/... replace with CDT discord) -->
+<!--  [![CDT](https://img.shields.io/badge/discord-ark-%237289da.svg?logo=discord)](https://discord.gg/... replace with CDT discord) -->
 [![Docs](https://docs.rs/rust-gpu/badge.svg)](collabdt.org/docs)
 <!-- [![Git Docs](https://img.shields.io/badge/git%20main%20docs-published-blue)](DOCS.md) -->
 <!-- [![dependency status](https://deps.rs/repo/github/EmbarkStudios/rust-gpu/status.svg)](https://deps.rs/repo/github/EmbarkStudios/rust-gpu) -->
