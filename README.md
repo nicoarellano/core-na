@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# `🌎 COLLAB DIGITAL TWINS`
+# `<> COLLAB DIGITAL TWINS`
 
 
 **Democratizing Digital Twin Technologies**
@@ -21,9 +21,9 @@
 
 ## ♊ What is CDT?
 
-CDT is a web-based, non-proprietary platform designed for the visualization and interaction of multi-scale geospatial information systems (GIS), open data, open building information modelling (BIM), and a wide range of other digital media, including text, images, animated and static 3D models, IFCs, and point clouds.
+COllab Digital Twins is the technology to power web-based, non-proprietary platforms designed for the visualization and interaction of multi-scale geospatial information systems (GIS), open data, open building information modelling (BIM), and a wide range of other digital media, including text, images, animated and static 3D models, IFCs, and point clouds.
 
-The platform is built with full-stack web development frameworks, using React.js for the user interface, state management, and memory optimization, and Next.js for file organization, routing, and server-side rendering (SSR). It integrates multiple open-source packages to support maps and 3D models: Maplibre as the web map renderer and Martin as the PostGIS vector tile server for GIS data, Three.js for 3D graphics, and Web-IFC from That Open Company for native browser-based IFC parsing, with IDS and BCF integration. Point cloud streaming and visualization are supported through Cloud Optimized Point Clouds (COPC), handled by the Potree and Giro3D libraries.
+The technology is built with full-stack web development frameworks, using React.js for the user interface, state management, and memory optimization, and Next.js for file organization, routing, and server-side rendering (SSR). It integrates multiple open-source packages to support maps and 3D models: Maplibre as the web map renderer and Martin as the PostGIS vector tile server for GIS data, Three.js for 3D graphics, and Web-IFC from That Open Company for native browser-based IFC parsing, with IDS and BCF integration. Point cloud streaming and visualization are supported through Cloud Optimized Point Clouds (COPC), handled by the Potree libraries.
 
 The backend is powered by PostgreSQL, with MinIO providing object storage for binary files such as IFC models and point clouds. All services are hosted on Canadian-based Fullhost infrastructure to ensure data sovereignty.
 
@@ -33,25 +33,26 @@ Finally, CDT includes a robust authentication system that allows users to form g
 
 ## 🧭 Mission
 
-This platform bridges BIM and GIS using open standards and free and open-source technologies, enabling stakeholders to visualize and analyze data directly in the browser, thereby eliminating proprietary barriers.
-The platform is being stewarded by a not-for-profit, <a href="www.collabdt.org">Collab Digital Twins</a>, established to promote openness, innovation, and long-term public benefit. Our mission is to democratize digital twin technologies. 
+CDT bridges BIM and GIS using open standards and free and open-source technologies, enabling stakeholders to visualize and analyze data directly in the browser, thereby eliminating proprietary barriers.
+CDT is being stewarded by a not-for-profit, <a href="www.collabdt.org">Collab Digital Twins</a>, established to promote openness, innovation, and long-term public benefit. Our mission is to democratize digital twin technologies. 
 
 ## Contributing
 
-[![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-v1.4-ff69b4.svg)](CODE_OF_CONDUCT.md)
+<!-- [![Contributor Covenant](https://img.shields.io/badge/contributor%20covenant-v1.4-ff69b4.svg)](CODE_OF_CONDUCT.md) -->
 
 We welcome community contributions to this project.
 
 Please read our [Contributor Guide](CONTRIBUTING.md) for more information on how to get started.
 Please also read our [Contributor Terms](CONTRIBUTING.md#contributor-terms) before you make any contributions.
 
-Any contribution intentionally submitted for inclusion in an Embark Studios project shall comply with the Rust standard licensing model (MIT OR Apache 2.0) and therefore be dual licensed as described below, without any additional terms or conditions:
+Any contribution intentionally submitted for inclusion in a Collab Digital Twins project shall comply with the standard licensing model (AGPL 3.0). 
+<!-- and therefore be dual licensed as described below, without any additional terms or conditions: -->
 
 ### License
 
-This contribution is dual licensed under EITHER OF
+<!-- This contribution is dual licensed under EITHER OF -->
 
-- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE) or <http://www.apache.org/licenses/LICENSE-2.0>)
+- Apache License, Version 2.0, ([LICENSE-AGPL](LICENSE) or <https://www.gnu.org/licenses/agpl-3.0.md>)
 
 ## 🚀 Beta access
 

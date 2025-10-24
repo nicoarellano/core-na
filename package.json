@@ -1,0 +1,22 @@
+{
+  "name": "cdt-core",
+  "version": "0.1.0",
+  "description": "CDT Core will contains all the core technology for you CDT platform",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collabdt/core.git"
+  },
+  "keywords": [
+    "core"
+  ],
+  "author": "Collab Digital Twins",
+  "license": "AGPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/collabdt/core/issues"
+  },
+  "homepage": "https://github.com/collabdt/core#readme"
+}
