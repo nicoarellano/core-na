@@ -1,4 +1,4 @@
-# Contributing to Canada Digital Twin
+# Contributing to Collab Digital Twins
 
 First off, thanks for taking the time to contribute! ❤️
 

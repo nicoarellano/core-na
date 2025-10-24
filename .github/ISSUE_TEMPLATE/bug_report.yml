@@ -1,6 +1,5 @@
 name: "Bug report 🐛"
 description: Report an issue, bug or unexpected behaviour
-type: Bug
 body:
   - type: markdown
     attributes:
