@@ -14,16 +14,12 @@
 🚧🚧🚧 CORE REPOSITORY STILL WORK IN PROGRESS 🚧🚧🚧
 
 <!-- CHANGE TO CDT -->
-
-<!-- [![Embark](https://img.shields.io/badge/embark-open%20source-blueviolet.svg)](https://embark.dev)
-[![Embark](https://img.shields.io/badge/discord-ark-%237289da.svg?logo=discord)](https://discord.gg/dAuKfZS)
-[![Crates.io](https://img.shields.io/crates/v/rust-gpu.svg)](https://crates.io/crates/rust-gpu)
-[![Docs](https://docs.rs/rust-gpu/badge.svg)](https://docs.rs/rust-gpu)
-[![Git Docs](https://img.shields.io/badge/git%20main%20docs-published-blue)](https://embarkstudios.github.io/presser/presser/index.html)
-[![dependency status](https://deps.rs/repo/github/EmbarkStudios/rust-gpu/status.svg)](https://deps.rs/repo/github/EmbarkStudios/rust-gpu)
-[![Build status](https://github.com/EmbarkStudios/physx-rs/workflows/CI/badge.svg)](https://github.com/EmbarkStudios/physx-rs/actions) -->
+<!-- [![CDT](https://img.shields.io/badge/embark-open%20source-blueviolet.svg)](collabdt.org/dev) -->
+<!--  [![CDT](https://img.shields.io/badge/discord-ark-%237289da.svg?logo=discord)](https://discord.gg/... replace with CDT discord) -->
+[![Docs](https://docs.rs/rust-gpu/badge.svg)](collabdt.org/docs)
+<!-- [![Git Docs](https://img.shields.io/badge/git%20main%20docs-published-blue)](DOCS.md) -->
+<!-- [![dependency status](https://deps.rs/repo/github/EmbarkStudios/rust-gpu/status.svg)](https://deps.rs/repo/github/EmbarkStudios/rust-gpu) -->
 </div>
-
 
 ## ♊ What is CDT?
 

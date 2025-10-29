@@ -1,6 +1,5 @@
 name: "New task 📋"
 description: Create a new task with clear goals, steps, and timeline
-type: Task
 body:
   - type: textarea
     id: goal-outcome
