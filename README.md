@@ -11,6 +11,8 @@
 
 **Democratizing Digital Twin Technologies**
 
+🚧🚧🚧 CORE REPOSITORY STILL WORK IN PROGRESS 🚧🚧🚧
+
 <!-- CHANGE TO CDT -->
 
 <!-- [![Embark](https://img.shields.io/badge/embark-open%20source-blueviolet.svg)](https://embark.dev)
