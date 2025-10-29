@@ -11,7 +11,7 @@
 
 **Democratizing Digital Twin Technologies**
 
-**🚧🚧🚧 CORE REPOSITORY STILL WORK IN PROGRESS 🚧🚧🚧
+## 🚧🚧🚧 CORE REPOSITORY STILL WORK IN PROGRESS 🚧🚧🚧
 
 <!-- CHANGE TO CDT -->
 <!-- [![CDT](https://img.shields.io/badge/embark-open%20source-blueviolet.svg)](collabdt.org/dev) -->
