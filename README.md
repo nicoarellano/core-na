@@ -11,19 +11,19 @@
 
 **Democratizing Digital Twin Technologies**
 
-🚧🚧🚧 CORE REPOSITORY STILL WORK IN PROGRESS 🚧🚧🚧
+**🚧🚧🚧 CORE REPOSITORY STILL WORK IN PROGRESS 🚧🚧🚧
 
 <!-- CHANGE TO CDT -->
 <!-- [![CDT](https://img.shields.io/badge/embark-open%20source-blueviolet.svg)](collabdt.org/dev) -->
 <!--  [![CDT](https://img.shields.io/badge/discord-ark-%237289da.svg?logo=discord)](https://discord.gg/... replace with CDT discord) -->
-[![Docs](https://docs.rs/rust-gpu/badge.svg)](collabdt.org/docs)
+<!-- [![Docs](https://docs.rs/rust-gpu/badge.svg)](collabdt.org/docs) -->
 <!-- [![Git Docs](https://img.shields.io/badge/git%20main%20docs-published-blue)](DOCS.md) -->
 <!-- [![dependency status](https://deps.rs/repo/github/EmbarkStudios/rust-gpu/status.svg)](https://deps.rs/repo/github/EmbarkStudios/rust-gpu) -->
 </div>
 
 ## ♊ What is CDT?
 
-COllab Digital Twins is the technology to power web-based, non-proprietary platforms designed for the visualization and interaction of multi-scale geospatial information systems (GIS), open data, open building information modelling (BIM), and a wide range of other digital media, including text, images, animated and static 3D models, IFCs, and point clouds.
+Collab Digital Twins is the technology to power web-based, non-proprietary platforms designed for the visualization and interaction of multi-scale geospatial information systems (GIS), open data, open building information modelling (BIM), and a wide range of other digital media, including text, images, animated and static 3D models, IFCs, and point clouds.
 
 The technology is built with full-stack web development frameworks, using React.js for the user interface, state management, and memory optimization, and Next.js for file organization, routing, and server-side rendering (SSR). It integrates multiple open-source packages to support maps and 3D models: Maplibre as the web map renderer and Martin as the PostGIS vector tile server for GIS data, Three.js for 3D graphics, and Web-IFC from That Open Company for native browser-based IFC parsing, with IDS and BCF integration. Point cloud streaming and visualization are supported through Cloud Optimized Point Clouds (COPC), handled by the Potree libraries.
 
